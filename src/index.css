@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('./assets/newspaper-texture.jpg'); /* Path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fffefe;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0); /* White background with transparency */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid #f8f4f4; /* Classical border */
+    box-shadow: 0 4px 10px rgb(253, 251, 251);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', serif;     /* Classical font */
+}
+
+/* styles.css */
+.skill-tag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.skill-tag.c-plus-plus {
+    background-image: url('/path/to/cpp-jumping.gif');
+}
+
+/* Repeat for other skill tags */

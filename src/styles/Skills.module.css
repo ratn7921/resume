@@ -1,0 +1,16 @@
+/* Skills.module.css */
+.skillTag {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.cPlusPlus {
+    background-image: url('/path/to/cpp-jumping.gif'); /* Adjust the path */
+}
+
+/* Add more styles for other skills similarly */

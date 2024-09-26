@@ -1,0 +1,14 @@
+.typing-effect {
+    font-family: 'Courier New', Courier, monospace; /* Typewriter style */
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide the text that has not yet been typed */
+    border-right: 2px solid; /* Simulate the cursor effect */
+    animation: blink-caret 0.75s step-end infinite; /* Cursor blink animation */
+}
+
+/* Cursor blink animation */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255, 255, 255, 0.75); } /* Change to your desired color */
+}
